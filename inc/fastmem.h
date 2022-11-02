@@ -29,6 +29,6 @@ void	*fstmemcpy_avx2(void *dst, const void *src, size_t size);
 //
 /////////////////////////////////
 
-void	*get_data(size_t size);
+uint8_t	*get_data(size_t size);
 
 #endif

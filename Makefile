@@ -7,7 +7,9 @@ FSTMEMCPY = src/fstmemcpy/fstmemcpy.c 	       \
 	    src/fstmemcpy/fstmemcpy_avx.c	   \
 	    src/fstmemcpy/fstmemcpy_avx2.c
 
-SRCS = $(FSTMEMCPY) 
+DATA	= src/data/get_data.c
+
+SRCS = $(FSTMEMCPY) $(DATA)
 OBJ = $(SRCS:.c=.o)
 CC = cc
 CFLAGS = -Wall -Werror -Wextra -Iinc -O3 -m64
