@@ -1,0 +1,104 @@
+[
+ {
+  "directory": "/nfs/homes/stales/FastMem",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-Iinc",
+   "-O3",
+   "-m64",
+   "-c",
+   "-o",
+   "src/fstmemcpy/fstmemcpy.o",
+   "src/fstmemcpy/fstmemcpy.c"
+  ],
+  "file": "src/fstmemcpy/fstmemcpy.c"
+ },
+ {
+  "directory": "/nfs/homes/stales/FastMem",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-Iinc",
+   "-O3",
+   "-m64",
+   "-c",
+   "-o",
+   "src/fstmemcpy/fstmemcpy_aligned.o",
+   "src/fstmemcpy/fstmemcpy_aligned.c"
+  ],
+  "file": "src/fstmemcpy/fstmemcpy_aligned.c"
+ },
+ {
+  "directory": "/nfs/homes/stales/FastMem",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-Iinc",
+   "-O3",
+   "-m64",
+   "-c",
+   "-o",
+   "src/fstmemcpy/fstmemcpy_unaligned.o",
+   "src/fstmemcpy/fstmemcpy_unaligned.c"
+  ],
+  "file": "src/fstmemcpy/fstmemcpy_unaligned.c"
+ },
+ {
+  "directory": "/nfs/homes/stales/FastMem",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-Iinc",
+   "-O3",
+   "-m64",
+   "-c",
+   "-o",
+   "src/fstmemcpy/fstmemcpy_sse.o",
+   "src/fstmemcpy/fstmemcpy_sse.c"
+  ],
+  "file": "src/fstmemcpy/fstmemcpy_sse.c"
+ },
+ {
+  "directory": "/nfs/homes/stales/FastMem",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-Iinc",
+   "-O3",
+   "-m64",
+   "-c",
+   "-o",
+   "src/fstmemcpy/fstmemcpy_avx.o",
+   "src/fstmemcpy/fstmemcpy_avx.c"
+  ],
+  "file": "src/fstmemcpy/fstmemcpy_avx.c"
+ },
+ {
+  "directory": "/nfs/homes/stales/FastMem",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-Iinc",
+   "-O3",
+   "-m64",
+   "-c",
+   "-o",
+   "src/fstmemcpy/fstmemcpy_avx2.o",
+   "src/fstmemcpy/fstmemcpy_avx2.c"
+  ],
+  "file": "src/fstmemcpy/fstmemcpy_avx2.c"
+ }
+]
